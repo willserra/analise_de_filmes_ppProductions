@@ -15,7 +15,8 @@ LH_CD_William_S_Serra/
 ├── reports/
 │   └── Relatorio LH_CD_William_S_Serra.pdf              # Relatório em PDF 
 ├── models/
-│   └── imdb_rating_predictor_full.pkl          # Modelo treinado e salvo
+│   └── imdb_rating_predictor.pkl               # Modelo baseline treinado e salvo
+    └── imdb_rating_predictor_full.pkl          # Modelo completo treinado e salvo
 ├── requirements.txt                            # Pacotes necessários para execução
 └── README.md                                   # Este arquivo
 ```
@@ -65,7 +66,7 @@ jupyter notebook notebooks/LH_CD_William_S_Serra.ipynb
 ## 📊 Principais Entregas
 1. **EDA Completa**: tratamento de dados, estatísticas descritivas, correlações, análises por gênero/diretor/ator, insights de texto (`Overview`).  
 2. **Respostas às Perguntas do Desafio**: recomendações de filmes, fatores de sucesso, insights de overview, possibilidade de inferir gênero.  
-3. **Modelo Preditivo**: regressão para prever `IMDB_Rating`, com validação e métricas de performance (RMSE, MAE).  
+3. **Modelos Preditivo**: regressão para prever `IMDB_Rating`, com validação e métricas de performance (RMSE, MAE).Presentes modelo baseline e modelo completo. 
 4. **Relatório**: versão final em PDF consolidando toda a análise.  
 
 ---
